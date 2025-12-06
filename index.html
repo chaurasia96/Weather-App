@@ -1,0 +1,62 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 mx-auto card mycard">
+
+                <div class="d-flex">
+
+
+                    <input type="text" id="search" class="form-control rounded-pill">
+                    <button onclick="weather()" class="btn btn-light rounded-circle">
+                        <img src="images/search.png" height="25 " alt="">
+                    </button>
+                </div>
+
+                <div class="text-center">
+                    <img src="images/clouds.png" height="200">
+                </div>
+                <h1 id="temp" class="text-center">0℃</h1>
+                <h1 class="text-center" id="city">Lucknow</h1>
+
+                <div class="row text-center py-4">
+                    <div class="col-sm-6 d-flex">
+                        <img src="images/humidity.png" height="60" alt="">
+                        <div class="ps-3">
+
+                            <h4 id="humid">28%</h4>
+                            <h6>Humidity</h6>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 d-flex justify-content-center">
+                        <img src="images/wind.png" alt="" height="60">
+
+                        <div class="ps-3">
+                            <h4 id="wind">3m/s</h4>
+                            <h6>Wind</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+<script src="jss/main.js"></script>
+</body>
+
+</html>
