@@ -1,0 +1,17 @@
+body
+{
+background-size: cover;
+background-image: url('/images/bg.jpg');
+
+
+}
+.mycard{
+min-height: 400px;
+background: rgb(194,192,218);
+background: linear-gradient(90deg, rgb(43, 41, 64) 0%, rgba(96,96,201,1) 35%, rgba(122,228,250,1) 100%);
+color: aliceblue;
+border-radius: 30px;
+margin-top: 5%;
+box-sizing: border-box;
+padding: 25px;
+}
